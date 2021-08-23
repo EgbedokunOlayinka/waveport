@@ -1,36 +1,36 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Waveshop E-commerce",
+    subtitle: "MongoDB, React, Redux, Node.js, React-Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Fullstack e-commerce app built with React, Redux, NodeJS, and MongoDB.",
+    image: "./project-1.png",
+    link: "https://waveshop.herokuapp.com/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "WaveConnect Social Media app",
+    subtitle: "MongoDB, React, Redux, Node.js, React-Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Fullstack mini-social media app built with React, Redux, NodeJS, and MongoDB.",
+    image: "./project-2.png",
+    link: "https://ancient-savannah-66901.herokuapp.com/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "SVG shape animator",
+    subtitle: "React, React Context, React-Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "An app that draws SVG shapes animatedly with user-chosen dimensions and colors, and also tracks the history",
+    image: "./project-3.png",
+    link: "https://wave-shape-animator.herokuapp.com/",
   },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
+  // {
+  //   title: "Github Jobs app",
+  //   subtitle: "React, React Context, Chakra-UI, Github API",
+  //   description:
+  //     "An app that shows available jobs as posted on Github through the Github API",
+  //   image: "./project-4.gif",
+  //   link: "https://wave-jobs.netlify.app/",
+  // },
 ];
 
 export const testimonials = [
@@ -52,9 +52,13 @@ export const testimonials = [
 
 export const skills = [
   "JavaScript",
+  "Typescript",
   "React",
+  "Redux",
   "Next.js",
   "Node",
   "GraphQL",
   "Material UI",
+  "Firebase",
+  "MongoDB"
 ];
