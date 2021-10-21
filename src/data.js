@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Waveshop E-commerce",
+    title: "WAVESHOP",
     subtitle: "MongoDB, React, Redux, Node.js, React-Bootstrap",
     description:
       "Fullstack e-commerce app built with React, Redux, NodeJS, and MongoDB.",
@@ -8,7 +8,7 @@ export const projects = [
     link: "https://waveshop.herokuapp.com/",
   },
   {
-    title: "WaveConnect Social Media app",
+    title: "WAVECONNECT",
     subtitle: "MongoDB, React, Redux, Node.js, React-Bootstrap",
     description:
       "Fullstack mini-social media app built with React, Redux, NodeJS, and MongoDB.",
@@ -16,7 +16,7 @@ export const projects = [
     link: "https://ancient-savannah-66901.herokuapp.com/",
   },
   {
-    title: "SVG shape animator",
+    title: "SVG SHAPE ANIMATOR",
     subtitle: "React, React Context, React-Bootstrap",
     description:
       "An app that draws SVG shapes animatedly with user-chosen dimensions and colors, and also tracks the history",
@@ -24,13 +24,21 @@ export const projects = [
     link: "https://wave-shape-animator.herokuapp.com/",
   },
   // {
-  //   title: "Github Jobs app",
-  //   subtitle: "React, React Context, Chakra-UI, Github API",
+  //   title: "ONLINE BOOKSTORE",
+  //   subtitle: "Node.js, Express, MongoDB, EJS",
   //   description:
-  //     "An app that shows available jobs as posted on Github through the Github API",
-  //   image: "./project-4.gif",
-  //   link: "https://wave-jobs.netlify.app/",
+  //     "A web app for storing books and accessing other users' stored books",
+  //   image: "./project-3.png",
+  //   link: "https://wave-book-store.herokuapp.com/",
   // },
+  {
+    title: "EXPENSE TRACKER",
+    subtitle: "MongoDB, React, React Context, Node.js",
+    description:
+      "An app that stores credit and debit expenses, and calculates total cost",
+    image: "./project-4.png",
+    link: "https://wave-expense-tracker.herokuapp.com/",
+  },
 ];
 
 export const testimonials = [
@@ -56,9 +64,11 @@ export const skills = [
   "React",
   "Redux",
   "Next.js",
-  "Node",
   "GraphQL",
   "Material UI",
+  "Chakra UI",
+  "Node.js",
   "Firebase",
-  "MongoDB"
+  "MongoDB",
+  "PostGreSQL"
 ];
